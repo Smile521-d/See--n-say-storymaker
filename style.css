@@ -1,0 +1,90 @@
+/* Name:Smile
+Student ID:200563908*/
+
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: palegreen;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Styling for the header */
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+/* Styling for the buttons container */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+/* Styling for individual buttons */
+button.noun-btn {
+    background-color: #ff6347; /* Red*/
+    border-color: #ff6347;
+}
+
+button.verb-btn {
+    background-color: #4682b4; /*  Blue */
+    border-color: #4682b4;
+}
+
+button.adjective-btn {
+    background-color: #3cb371; /* Green */
+    border-color: #3cb371;
+}
+
+button.second-noun-btn {
+    background-color: #ffa500; /* Orange */
+    border-color: #ffa500;
+}
+
+button.place-btn {
+    background-color: #9370db; /*  Purple */
+    border-color: #9370db;
+}
+
+button.speak-btn {
+    background-color: #ff4500; /* Orange Red */
+    border-color: #ff4500;
+}
+
+button.random-story-btn {
+    background-color: #1e90ff; /* Dodger Blue Color */
+    border-color: #1e90ff;
+}
+
+button.reset-btn {
+    background-color: #32cd32; /* Light Green Color */
+    border-color: #32cd32;
+}
+
+
+/* Styling for buttons  */
+button.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+#storyText {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    background-color: skyblue;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
